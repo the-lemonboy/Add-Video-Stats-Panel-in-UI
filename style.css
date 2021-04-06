@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  position: relative;
+  top:50px;
+  margin: 0 auto;
+
+  
+}
+video{
+  width: 1000px;
+
+}
+.dplayer-menu {
+  position: absolute;
+  width: 250px;
+  height:280px;
+  border-radius: 2px;
+  background: rgba(28, 28, 28, 0.85);
+  padding: 5px 0;
+  overflow: hidden;
+  z-index: 3;
+}
+.menu-items{
+  display: none;
+}
+.menu-items li{
+    height:40px;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    color:white;
+    line-height: 40px;
+    
+
+}
+  .menu-items li:hover{
+    background-color: rgba(255, 255, 255, .1);
+  }
+
+  .data-box{
+    width:300px;
+    height:120px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    background: rgba(28, 28, 28, 0.9);
+    opacity: 0.8;
+    color: aliceblue;
+    font-size: 10px;
+    display: none;
+  }
+ .data-box button{
+   position: absolute;
+   right:10px;
+   top:10px;
+ }
+.data-box table{
+  width:300px;
+  height:120px;
+}
